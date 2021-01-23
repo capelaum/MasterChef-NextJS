@@ -7,9 +7,7 @@ export default function Recipe(props){
     return(
         <div>
             <Header title={`Capela MasterChef - ${props.name}`} />
-
             <main>
-                
                 
                 <article class="recipe-body" >
                     <h1 className="recipe-body-name" >{props.name}</h1>
@@ -30,8 +28,7 @@ export default function Recipe(props){
                     </Link>
                 </div>
             </main>
-
-            <Footer />
+            <Footer/>
         </div>
     )
 }
